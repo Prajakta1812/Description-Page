@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> cards</title>
+        <style>
+            body{
+                margin:0;
+                font-family:sans-serif;
+                background: #f2f2f2;
+            }
+            h3{
+                text-align: center;
+                font-size: 30px;
+                margin:0;
+                padding-top:10px;
+
+            }
+            a{
+                text-decoration: none;
+            }
+            .container{
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+                justify-content: space-evenly;
+                align-items: center;
+                margin:50px 0;
+
+            }
+            .content{
+                width: 20%;
+                margin:15px;
+                box-sizing: border-box;
+                float: left;
+                text-align: center;
+                border-radius: 20px;
+                cursor: pointer;
+                padding-top: 10px;
+                box-shadow:1px 2px 3px 2px black;
+                transition: 0.4s;
+                background-color:#e0ebeb;
+                        }
+            .content:hover{
+                box-shadow: 3px 2px 2px 2px black;
+            }
+          
+            img{
+                width:200px;
+                height:200px;
+                text-align: center;
+                margin:0 auto;
+                display: block;
+               
+            }
+          
+            .button{
+                margin-top: 5px;
+                display: inline-block;
+                background-color:#33cc33;
+                color:#fff;
+                font-size:17px;
+                padding:5px 18px;
+                border-radius:40px;
+                text-align:center;
+                margin-bottom: 10px;
+            }
+            
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+         
+            <div class="content">
+              
+                <img class="img-card" src="book1.jpeg">
+                <h1> Indian history</h1>
+               
+                <h3> ₹150</h3>
+                <hr>
+                <a href="" class="button"> Read More </a>
+            </div>
+
+            <div class="content">
+                <img src="book2.jpeg">
+                <h1>mastaan</h1>
+             
+                <h3> ₹250</h3>
+                <hr >
+                <a href="" class="button"> Read More </a>
+            
+            </div>
+
+            <div class="content">
+                <img src="book3.jpeg">
+                <h1> peace and war</h1>
+             
+                <h3>₹250</h3>
+               <hr >
+                <a href="" class="button"> Read More </a>
+            </div>
+
+            <div class="content">
+                <img src="book4.jpeg">
+                <h1>Nationalism</h1>
+                
+                <h3> ₹85</h3>
+                <hr>
+                <a href="" class="button"> Read More </a>
+            </div>
+
+        </div>
+    </body>
+</html>
